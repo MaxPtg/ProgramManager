@@ -121,11 +121,28 @@
                 "Code.exe"
             ]
         },
-        "Git": {
+        "Docker": {
             "processes": [
-                "git.exe",
-                "git-bash.exe",
-                "git-cmd.exe"
+                "Docker Desktop.exe",
+                "dockerd.exe"
+            ]
+        },
+        "Termius": {
+            "processes": [
+                "Termius.exe"
+            ]
+        }
+    },
+    "Runtimes": {
+        "Java": {
+            "processes": [
+                "java.exe",
+                "javaw.exe"
+            ]
+        },
+        "Node.js": {
+            "processes": [
+                "node.exe"
             ]
         },
         "Python": {
@@ -134,15 +151,21 @@
                 "pythonw.exe"
             ]
         },
-        "Node.js": {
+        "Ruby": {
             "processes": [
-                "node.exe"
+                "ruby.exe"
             ]
         },
-        "Docker": {
+        "PHP": {
             "processes": [
-                "Docker Desktop.exe",
-                "dockerd.exe"
+                "php.exe"
+            ]
+        },
+        "Git": {
+            "processes": [
+                "git.exe",
+                "git-bash.exe",
+                "git-cmd.exe"
             ]
         }
     },
