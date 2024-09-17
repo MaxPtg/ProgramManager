@@ -76,11 +76,6 @@
         }
     },
     "Communication": {
-        "Discord": {
-            "processes": [
-                "Discord.exe"
-            ]
-        },
         "TeamSpeak 3": {
             "processes": [
                 "ts3client_win64.exe"
@@ -93,9 +88,20 @@
                 "hotkey_helper.exe"
             ]
         },
+        "Discord": {
+            "processes": [
+                "Discord.exe"
+            ]
+        },
         "Signal": {
             "processes": [
                 "Signal.exe"
+            ]
+        },
+        "WhatsApp": {
+            "processes": [
+                "WhatsApp.exe",
+                "RuntimeBroker.exe"
             ]
         },
         "Mattermost": {
@@ -103,10 +109,9 @@
                 "Mattermost.exe"
             ]
         },
-        "WhatsApp": {
+        "Slack": {
             "processes": [
-                "WhatsApp.exe",
-                "RuntimeBroker.exe"
+                "slack.exe"
             ]
         }
     },
@@ -202,7 +207,7 @@
         },
         "BetterBird": {
             "processes": [
-                "BetterBird.exe"
+                "betterbird.exe"
             ]
         }
     },
