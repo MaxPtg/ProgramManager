@@ -86,6 +86,13 @@
                 "ts3client_win64.exe"
             ]
         },
+        "TeamSpeak 5": {
+            "processes": [
+                "TeamSpeak.exe",
+                "conhost.exe",
+                "hotkey_helper.exe"
+            ]
+        },
         "Signal": {
             "processes": [
                 "Signal.exe"
@@ -95,12 +102,23 @@
             "processes": [
                 "Mattermost.exe"
             ]
+        },
+        "WhatsApp": {
+            "processes": [
+                "WhatsApp.exe",
+                "RuntimeBroker.exe"
+            ]
         }
     },
     "Development Tools": {
         "Visual Studio Code Insiders": {
             "processes": [
                 "Code - Insiders.exe"
+            ]
+        },
+        "Visual Studio Code": {
+            "processes": [
+                "Code.exe"
             ]
         },
         "Git": {
@@ -152,6 +170,16 @@
             "processes": [
                 "pdf24-Creator.exe",
                 "pdf24-Toolbox.exe"
+            ]
+        },
+        "Thunderbird": {
+            "processes": [
+                "thunderbird.exe"
+            ]
+        },
+        "BetterBird": {
+            "processes": [
+                "BetterBird.exe"
             ]
         }
     },
