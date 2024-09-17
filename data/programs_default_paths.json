@@ -1,0 +1,9 @@
+{
+    "paths": [
+        "C:\\Program Files",
+        "C:\\Program Files (x86)",
+        "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs",
+        "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs",
+        "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs"
+    ]
+}

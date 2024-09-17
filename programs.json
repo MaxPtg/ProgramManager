@@ -1,0 +1,298 @@
+{
+    "Web Browsers": {
+        "Google Chrome": {
+            "processes": [
+                "chrome.exe",
+                "chrome_proxy.exe"
+            ]
+        },
+        "Mozilla Firefox": {
+            "processes": [
+                "firefox.exe",
+                "crashreporter.exe",
+                "plugin-container.exe",
+                "updater.exe"
+            ]
+        },
+        "Microsoft Edge": {
+            "processes": [
+                "msedge.exe",
+                "msedge_proxy.exe"
+            ]
+        },
+        "LibreWolf": {
+            "processes": [
+                "librewolf.exe"
+            ]
+        },
+        "Zen Browser": {
+            "processes": [
+                "zen.exe"
+            ]
+        }
+    },
+    "Gaming Platforms": {
+        "Steam": {
+            "processes": [
+                "steam.exe",
+                "steamwebhelper.exe",
+                "steamservice.exe"
+            ]
+        },
+        "Epic Games Launcher": {
+            "processes": [
+                "EpicGamesLauncher.exe",
+                "EpicWebHelper.exe"
+            ]
+        },
+        "GOG Galaxy": {
+            "processes": [
+                "GalaxyClient.exe",
+                "GalaxyClientService.exe"
+            ]
+        },
+        "Uplay": {
+            "processes": [
+                "upc.exe",
+                "UplayWebCore.exe"
+            ]
+        },
+        "EA Desktop": {
+            "processes": [
+                "EADesktop.exe",
+                "EABackgroundService.exe"
+            ]
+        },
+        "Battle.NET": {
+            "processes": [
+                "Battle.net.exe",
+                "Battle.net Launcher.exe"
+            ]
+        },
+        "CurseForge": {
+            "processes": [
+                "CurseForge.exe"
+            ]
+        }
+    },
+    "Communication": {
+        "Discord": {
+            "processes": [
+                "Discord.exe"
+            ]
+        },
+        "TeamSpeak 3": {
+            "processes": [
+                "ts3client_win64.exe"
+            ]
+        },
+        "Signal": {
+            "processes": [
+                "Signal.exe"
+            ]
+        },
+        "Mattermost": {
+            "processes": [
+                "Mattermost.exe"
+            ]
+        }
+    },
+    "Development Tools": {
+        "Visual Studio Code Insiders": {
+            "processes": [
+                "Code - Insiders.exe"
+            ]
+        },
+        "Git": {
+            "processes": [
+                "git.exe",
+                "git-bash.exe",
+                "git-cmd.exe"
+            ]
+        },
+        "Python": {
+            "processes": [
+                "python.exe",
+                "pythonw.exe"
+            ]
+        },
+        "Node.js": {
+            "processes": [
+                "node.exe"
+            ]
+        },
+        "Docker": {
+            "processes": [
+                "Docker Desktop.exe",
+                "dockerd.exe"
+            ]
+        }
+    },
+    "Productivity": {
+        "Microsoft Office": {
+            "processes": [
+                "EXCEL.EXE",
+                "WINWORD.EXE",
+                "POWERPNT.EXE",
+                "OUTLOOK.EXE",
+                "ONENOTE.EXE"
+            ]
+        },
+        "Obsidian": {
+            "processes": [
+                "Obsidian.exe"
+            ]
+        },
+        "Todoist": {
+            "processes": [
+                "Todoist.exe"
+            ]
+        },
+        "PDF24": {
+            "processes": [
+                "pdf24-Creator.exe",
+                "pdf24-Toolbox.exe"
+            ]
+        }
+    },
+    "System Utilities": {
+        "7-Zip": {
+            "processes": [
+                "7z.exe",
+                "7zFM.exe",
+                "7zG.exe"
+            ]
+        },
+        "CrystalDiskInfo": {
+            "processes": [
+                "DiskInfo64.exe"
+            ]
+        },
+        "WizTree": {
+            "processes": [
+                "WizTree.exe",
+                "WizTree64.exe"
+            ]
+        },
+        "Everything": {
+            "processes": [
+                "Everything.exe"
+            ]
+        },
+        "ShareX": {
+            "processes": [
+                "ShareX.exe"
+            ]
+        },
+        "AutoHotkey": {
+            "processes": [
+                "AutoHotkey32.exe",
+                "AutoHotkey64.exe"
+            ]
+        },
+        "Nextcloud": {
+            "processes": [
+                "nextcloud.exe"
+            ]
+        }
+    },
+    "Media": {
+        "VLC Media Player": {
+            "processes": [
+                "vlc.exe"
+            ]
+        },
+        "Plex": {
+            "processes": [
+                "Plex.exe",
+                "Plex Transcoder.exe"
+            ]
+        }
+    },
+    "Security": {
+        "Bitdefender": {
+            "processes": [
+                "bdagent.exe",
+                "bdredline.exe"
+            ]
+        },
+        "Windows Defender": {
+            "processes": [
+                "MsMpEng.exe",
+                "NisSrv.exe"
+            ]
+        }
+    },
+    "Remote Access": {
+        "AnyDesk": {
+            "processes": [
+                "AnyDesk.exe"
+            ]
+        },
+        "Parsec": {
+            "processes": [
+                "parsecd.exe",
+                "pservice.exe"
+            ]
+        },
+        "WinSCP": {
+            "processes": [
+                "WinSCP.exe"
+            ]
+        },
+        "Termius": {
+            "processes": [
+                "Termius.exe"
+            ]
+        }
+    },
+    "VPN": {
+        "NordVPN": {
+            "processes": [
+                "NordVPN.exe"
+            ]
+        },
+        "ProtonVPN": {
+            "processes": [
+                "ProtonVPN.exe"
+            ]
+        },
+        "WireGuard": {
+            "processes": [
+                "wireguard.exe"
+            ]
+        },
+        "OpenVPN": {
+            "processes": [
+                "openvpn.exe"
+            ]
+        }
+    },
+    "Drivers": {
+        "NVIDIA": {
+            "processes": [
+                "NVIDIA Web Helper.exe",
+                "NVIDIA Share.exe"
+            ]
+        },
+        "Realtek": {
+            "processes": [
+                "RtkNGUI64.exe",
+                "RtkAudioService64.exe"
+            ]
+        },
+        "AMD Software": {
+            "processes": [
+                "amdow.exe",
+                "AMDRSServ.exe"
+            ]
+        },
+        "ASUS Software": {
+            "processes": [
+                "AsusUpdate.exe",
+                "ArmouryCrate.exe"
+            ]
+        }
+    },
+    "Miscellaneous": {}
+}
