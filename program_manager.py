@@ -290,7 +290,8 @@ class ProgramManager:
             console.print("[green]> Online presence programs have been ended.[/green]")
 
     def scan_programs(self) -> None:
-        console.print("[cyan]> Scanning for programs...[/cyan]")
+        console.print()
+        console.print("[cyan] > Scanning for programs...[/cyan]")
         logging.info("Starting program scan")
         
         # Load program paths
@@ -358,7 +359,8 @@ class ProgramManager:
             console.print(f"[red]! Error: Unable to write to {self.user_config_file}[/red]")
             return
 
-        console.print(f"[green]> Scan complete. {programs_found} programs found and saved to {self.user_config_file}[/green]")
+        console.print(f"[green] > Scan complete. {programs_found} programs found and saved to {self.user_config_file}[/green]")
+        console.print()
         self.load_config()  # Reload the config to include new programs
         logging.info("Program scan completed")
 
