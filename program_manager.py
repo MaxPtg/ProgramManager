@@ -85,15 +85,16 @@ class ProgramManager:
             exit(1)
             
     def display_menu(self) -> None:
-        table = Table()
+        table = Table(title="Main Menu")
         table.add_column("Option", style="cyan", no_wrap=True)
         table.add_column("Description", style="magenta")
 
         options = [
-            ("1", "End a program"),
-            ("2", "End program category"),
-            ("3", "List categories"),
-            ("4", "Search programs"),
+            ("1", "End program(s)"),
+            ("2", "End program category(s)"),
+            ("3", "List programs by category"),
+            ("4", "Scan programs on local machine"),
+            ("5", "Help"),
             ("0", "Exit")
         ]
 
@@ -101,6 +102,18 @@ class ProgramManager:
             table.add_row(option, description)
 
         console.print(table)
+
+    def display_help(self) -> None:
+        console.print()
+        console.print("[magenta] 1. End program(s):[/magenta] Terminate individual programs by selecting them from the list.")
+        console.print("[magenta] 2. End program category(s):[/magenta] Terminate all programs within a selected category.")
+        console.print("[magenta] 3. List programs by category:[/magenta] View all programs organized by their categories.")
+        console.print("[magenta] 4. Scan programs on local machine:[/magenta] Scan the system for installed programs and update the configuration.")
+        console.print("[magenta] 5. Help:[/magenta] Display this help section.")
+        console.print("[magenta] 0. Exit:[/magenta] Close the Program Manager.")
+        console.print()
+        console.print("[yellow] > For further information regarding the scripts functionality, refer to the [cyan]README.md[/cyan] file.[/yellow]")
+        console.print()
 
     def list_programs(self) -> None:
         table = Table(title="Programs")
@@ -131,6 +144,7 @@ class ProgramManager:
 
         table.add_row("0", "Back to Main Menu", "", "", "")
         console.print(table)
+        console.print()
 
     def list_categories(self) -> None:
         table = Table(title="Program Categories")
@@ -372,7 +386,7 @@ class ProgramManager:
             while True:
                 self.display_menu()
                 console.print()
-                choice = Prompt.ask("[cyan] ? Choose an option[/cyan]", choices=["1", "2", "3", "4", "0"])
+                choice = Prompt.ask("[cyan] ? Choose an option[/cyan]", choices=["1", "2", "3", "4", "5", "0"])
                 logging.debug(f"User chose option: {choice}")
 
                 if choice == "1":
@@ -380,11 +394,14 @@ class ProgramManager:
                 elif choice == "2":
                     self.end_categories()
                 elif choice == "3":
-                    self.list_categories()
+                    self.list_programs()
                 elif choice == "4":
                     self.scan_programs()
+                elif choice == "5":
+                    self.display_help()
                 elif choice == "0":
-                    raise KeyboardInterrupt
+                    break
+
         except KeyboardInterrupt:
             logging.info("Exiting program due to user interrupt")
         finally:
